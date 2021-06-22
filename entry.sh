@@ -11,5 +11,6 @@ done
 
 # copy device-type.json into the place the supervisor looks for it
 cp /resin-boot/device-type.json /mnt/boot/
+cp /var/local/boinc.config.json /mnt/boot/config.json
 
 exec /sbin/init
